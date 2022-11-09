@@ -1,0 +1,176 @@
+html{
+    height: 100%;
+    
+}
+
+body{
+    height: 100%;
+    font-size: 14px;
+    
+}
+
+nav{
+    margin: 0 auto;
+}
+
+.header-a{
+    background : url('./assets/1.jpg');
+    height: 85vh;
+    background-size: cover;
+    object-fit: cover;
+  
+    
+}
+
+.header-b{
+    background : url('./assets/2.jpg');
+    height: 85vh;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+
+.header-c{
+    background : url('./assets/3.jpg');
+    height: 85vh;
+    background-size: cover;
+    object-fit: cover;
+   
+}
+
+.logo{
+    object-fit: contain;
+    
+}
+
+.t-nav{
+    background-color: rgba(0, 0, 0, 0.527);
+    backdrop-filter: blur(20px);
+}
+
+.t-nav a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.header-d{
+    background : url('./assets/4.jpg');
+    height: 85vh;
+    background-size: cover;
+    object-fit: cover;
+  
+}
+
+.header-f{
+    background : url('./assets/11.jpg');
+    height: 85vh;
+    background-size: cover;
+    object-fit: cover;
+    
+}
+
+
+header h1{
+    font-size: 3.7rem;
+    width: 65%;
+}
+
+@media screen and (max-width:576px){
+    header h1{
+        font-size: 2.5rem;
+    }
+
+    .c-container{
+        display:none;
+    }
+}
+
+.head-box{
+    position: relative;
+    top: -50px;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.8rem;
+}
+
+.bg-main{
+    background-color: #004E60;
+}
+
+.bg-second{
+    background-color: #DD6A00;
+}
+
+.text-main{
+    color: #DD6A00;
+}
+
+
+
+.right-img{
+    background-image: url('./assets/7.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-l-gray{
+    background-color: rgb(246, 246, 246);
+}
+
+.sect-card{
+    height: 300px;
+    border-bottom: 2px solid #DD6A00;
+   
+}
+
+
+.c-container{
+    height: 600px;
+    background-image: url('./assets/9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.c-container:hover{
+    background-color: gray;
+}
+
+.arrow{
+    background-color: rgba(128, 128, 128, 0.371);
+    border-radius: 100%;
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.sect-text-c{
+    font-size: 0.9rem;
+    height: 10em;
+}
+
+.section-d{
+    background-image: url('./assets/8.jpg');
+}
+
+.section-e{
+    background-image: url('./assets/10.jpg');
+    background-size: cover;
+    height: 70vh;
+}
+
+.wrapper{
+    background-color: rgba(0, 0, 0, 0.481);
+}
+
+.map{
+    background-image: url('./assets/map.png');
+    background-size: contain;
+    height: 90vh;
+}
+
+.bg-footer{
+    background-color: rgb(233, 233, 233);
+    color: #004E60;
+}
+
+footer{
+    font-size: 0.9rem
+}
